@@ -10,7 +10,9 @@ namespace ConsoleAppPractice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Random dice = new Random();
+            int roll = dice.Next(1, 7);
+            Console.Write(roll);
         }
     }
 }
