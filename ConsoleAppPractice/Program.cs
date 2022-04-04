@@ -8,6 +8,15 @@ namespace ConsoleAppPractice
 {
 
     //metaverse系の投稿をredditから取得していろいろやるアプリを作る
+    //ctrl +k+cでコメントアウト　ctrl +shift + lで削除
+
+
+    //C#の構文の動画やって、Redditのやつちょっと作って
+    //ARECを作るの再開
+    //並行して、ドキュメント読むか、unity learnのスクリプトのチュートリアルをやる
+    //チュートリアルをやりながら教育系メタバースアプリに使えるとこ
+    //を積極的に探して、
+    //チュートリアルをそのまま教育アプリを作るように改造する
     internal class Program
     {
         static void Main(string[] args)
@@ -21,6 +30,7 @@ namespace ConsoleAppPractice
             book1.author = "jke";
             book1.pages = roll;
             Console.WriteLine(book1.pages);
+            //try catchも書く
 
 
 

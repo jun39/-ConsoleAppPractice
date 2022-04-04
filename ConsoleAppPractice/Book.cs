@@ -11,5 +11,9 @@ namespace ConsoleAppPractice
         public string title;
         public string author;
         public int pages;
+        public Book()
+        {
+            Console.WriteLine("本作成");
+        }
     }
 }
