@@ -25,10 +25,7 @@ namespace ConsoleAppPractice
             int roll = dice.Next(1, 10);
             
 
-            Book book1 = new Book();
-            book1.title = "harry";
-            book1.author = "jke";
-            book1.pages = roll;
+            Book book1 = new Book("john","junjun",roll);
             Console.WriteLine(book1.pages);
             //try catchも書く
 

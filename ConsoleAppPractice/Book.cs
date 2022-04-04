@@ -11,9 +11,11 @@ namespace ConsoleAppPractice
         public string title;
         public string author;
         public int pages;
-        public Book()
+        public Book(string aTitle,string aAuthor, int aPages)
         {
-            Console.WriteLine("本作成");
+            title = aTitle;
+            author = aAuthor;
+            pages = aPages;
         }
     }
 }
