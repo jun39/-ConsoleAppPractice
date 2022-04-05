@@ -9,6 +9,7 @@ namespace ConsoleAppPractice
     internal class Reddit
     {
         private string url;
+        public static int createdCount = 0;
 
         //try catchでクエリーが文字列ではないときの例外を書く
 
@@ -16,6 +17,7 @@ namespace ConsoleAppPractice
         public Reddit()
         {
             url = "https://api.pushshift.io/reddit/search/comment/?q=";
+            createdCount++;
         }
 
         //public string GetComment(string query,string duration)
