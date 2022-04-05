@@ -8,7 +8,7 @@ namespace ConsoleAppPractice
 {
     internal class Reddit
     {
-        public string url;
+        private string url;
 
         //try catchでクエリーが文字列ではないときの例外を書く
 
@@ -18,9 +18,23 @@ namespace ConsoleAppPractice
             url = "https://api.pushshift.io/reddit/search/comment/?q=";
         }
 
-        public string GetComment(string query,string duration)
-        {
+        //public string GetComment(string query,string duration)
+        //{
 
+        //}
+
+        public string Url
+        {
+            get{
+                return url;
+            }
+
+            set{
+                if(value is string)
+                {
+                    url = value;
+                }
+            }
         }
     }
 }

@@ -21,13 +21,17 @@ namespace ConsoleAppPractice
     {
         static void Main(string[] args)
         {
-            Random dice = new Random();
-            int roll = dice.Next(1, 10);
-            
+            //Random dice = new Random();
+            //int roll = dice.Next(1, 10);
 
-            Book book1 = new Book("john","junjun",roll);
-            Console.WriteLine(book1.pages);
+
+            //Book book1 = new Book("john","junjun",roll);
+            //Console.WriteLine(book1.pages);
             //try catchも書く
+
+            Reddit sampleReddit = new Reddit();
+            sampleReddit.Url = "https://hello";
+            Console.WriteLine(sampleReddit.Url);
 
 
 
