@@ -38,5 +38,10 @@ namespace ConsoleAppPractice
                 }
             }
         }
+
+        public int getCreatedCount()
+        {
+            return createdCount;
+        }
     }
 }

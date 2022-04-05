@@ -29,9 +29,14 @@ namespace ConsoleAppPractice
             //Console.WriteLine(book1.pages);
             //try catchも書く
 
-            Reddit sampleReddit = new Reddit();
-            sampleReddit.Url = "https://hello";
-            Console.WriteLine(sampleReddit.Url);
+            Reddit sampleReddit1 = new Reddit();
+            Reddit sampleReddit2 = new Reddit();
+
+            sampleReddit1.Url = "https://hello";
+            Console.WriteLine(sampleReddit1.Url);
+            //静的クラス属性はクラスに特有の属性
+            Console.WriteLine(Reddit.createdCount);
+
 
 
 
