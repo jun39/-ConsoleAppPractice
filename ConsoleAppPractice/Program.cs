@@ -37,6 +37,11 @@ namespace ConsoleAppPractice
             //静的クラス属性はクラスに特有の属性
             Console.WriteLine(Reddit.createdCount);
 
+            var t = TupleBasic.GetMaxMin(15, 13);
+            Console.WriteLine(t.max);
+            Console.WriteLine(t.min);
+
+
 
 
 
